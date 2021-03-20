@@ -1,0 +1,1 @@
+alert tcp $EXTERNAL_NET any -> $HOME_NET 8080 (flags:A; msg:"TEST ALERT"; content:"I am ISD Homework I"; offset:99; depth:100; sid:1000405)
